@@ -8,12 +8,13 @@ namespace EPiScriptLab
     public class Global
     {
         /// <summary>
+        /// sodkfhalskdj
         /// Group names for content types and properties
         /// </summary>
         [GroupDefinitions()]
         public static class GroupNames
         {
-            [Display(Name = "Contact", Order = 1)]
+            [Display(Name = "Contact", Order = 1, Description = "Hej")]
             public const string Contact = "Contact";
 
             [Display(Name = "Default", Order = 2)]
